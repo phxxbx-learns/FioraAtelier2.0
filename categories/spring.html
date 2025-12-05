@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Collection - Fiora Atelier</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="../index.html" class="logo">
+                <div class="logo-image">
+                    <img src="../pics/fiora.png" alt="Fiora Atelier Logo">
+                </div>
+                <div class="logo-text">
+                    <h1>Fiora Atelier</h1>
+                    <p>Elegance & Beauty in a Single Bouquet</p>
+                </div>
+            </a>
+            <div class="header-controls">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search flowers..." id="search-input">
+                    <button id="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="header-icons">
+                    <div class="icon-container" id="wishlist-icon">
+                        <i class="fas fa-heart"></i>
+                        <span class="badge" id="wishlist-count">0</span>
+                    </div>
+                    <div class="icon-container" id="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge" id="cart-count">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav-container" id="main-nav">
+        <ul class="nav-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#best-sellers">Best Sellers</a></li>
+            <li><a href="../index.html#fresh">Fresh Flowers</a></li>
+            <li><a href="../index.html#seasonal">Categories</a></li>
+            <li><a href="../index.html#events">Events Styling</a></li>
+            <li><a href="../index.html#gallery">Gallery</a></li>
+            <li><a href="../index.html#about-us">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Spring Collection Section -->
+    <main class="main-content">
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">Spring Collection</h2>
+                <p class="section-subtitle">Celebrate the season of renewal with our fresh spring blooms featuring vibrant colors and delicate fragrances</p>
+            </div>
+
+            <div class="product-grid">
+                <div class="product-card" data-id="31" data-category="spring">
+                    <div class="product-badge">Spring Special</div>
+                    <img src="../pics/tulip.jpeg" alt="Tulips" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">Pink Tulip Bundle</div>
+                        <div class="product-description">Beautiful pink tulips symbolizing perfect love and spring renewal</div>
+                        <div class="product-price">₱499.00</div>
+                        <div class="product-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus" data-id="31">-</button>
+                                <span class="quantity" data-id="31">1</span>
+                                <button class="quantity-btn plus" data-id="31">+</button>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="add-to-cart" data-id="31">Add to Cart</button>
+                                <button class="wishlist-btn" data-id="31">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="32" data-category="spring">
+                    <div class="product-badge">Spring Special</div>
+                    <img src="../pics/daisies.jpg" alt="Daisies" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">Sunny Daisies</div>
+                        <div class="product-description">Cheerful daisies representing innocence and new beginnings</div>
+                        <div class="product-price">₱399.00</div>
+                        <div class="product-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus" data-id="32">-</button>
+                                <span class="quantity" data-id="32">1</span>
+                                <button class="quantity-btn plus" data-id="32">+</button>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="add-to-cart" data-id="32">Add to Cart</button>
+                                <button class="wishlist-btn" data-id="32">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="33" data-category="spring">
+                    <div class="product-badge">Spring Special</div>
+                    <img src="../pics/cherry.jpeg" alt="Cherry Blossoms" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">Cherry Blossom Stems</div>
+                        <div class="product-description">Delicate cherry blossoms symbolizing the beauty and fragility of life</div>
+                        <div class="product-price">₱599.00</div>
+                        <div class="product-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus" data-id="33">-</button>
+                                <span class="quantity" data-id="33">1</span>
+                                <button class="quantity-btn plus" data-id="33">+</button>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="add-to-cart" data-id="33">Add to Cart</button>
+                                <button class="wishlist-btn" data-id="33">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="34" data-category="spring">
+                    <div class="product-badge">Spring Special</div>
+                    <img src="../pics/hyacinths.jpg" alt="Hyacinths" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">Lavender Hyacinths</div>
+                        <div class="product-description">Fragrant hyacinths in lovely lavender shades for spring bouquets</div>
+                        <div class="product-price">₱549.00</div>
+                        <div class="product-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus" data-id="34">-</button>
+                                <span class="quantity" data-id="34">1</span>
+                                <button class="quantity-btn plus" data-id="34">+</button>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="add-to-cart" data-id="34">Add to Cart</button>
+                                <button class="wishlist-btn" data-id="34">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="35" data-category="spring">
+                    <div class="product-badge">Spring Special</div>
+                    <img src="../pics/peony.webp" alt="Peony" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">Peony (Per Stem)</div>
+                        <div class="product-description">Luxurious peonies symbolizing prosperity and happy marriage</div>
+                        <div class="product-price">₱129.00</div>
+                        <div class="product-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus" data-id="35">-</button>
+                                <span class="quantity" data-id="35">1</span>
+                                <button class="quantity-btn plus" data-id="35">+</button>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="add-to-cart" data-id="35">Add to Cart</button>
+                                <button class="wishlist-btn" data-id="35">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="36" data-category="spring">
+                    <div class="product-badge">Spring Special</div>
+                    <img src="../pics/daffodil.webp" alt="Daffodil" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">Daffodils</div>
+                        <div class="product-description">Bright yellow daffodils heralding the arrival of spring</div>
+                        <div class="product-price">₱399.00</div>
+                        <div class="product-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus" data-id="36">-</button>
+                                <span class="quantity" data-id="36">1</span>
+                                <button class="quantity-btn plus" data-id="36">+</button>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="add-to-cart" data-id="36">Add to Cart</button>
+                                <button class="wishlist-btn" data-id="36">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="37" data-category="spring">
+                    <div class="product-badge">Spring Special</div>
+                    <img src="../pics/iriss.jpg" alt="Iris" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">Iris Bundle</div>
+                        <div class="product-description">Elegant irises representing faith, hope, and wisdom</div>
+                        <div class="product-price">₱599.00</div>
+                        <div class="product-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus" data-id="37">-</button>
+                                <span class="quantity" data-id="37">1</span>
+                                <button class="quantity-btn plus" data-id="37">+</button>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="add-to-cart" data-id="37">Add to Cart</button>
+                                <button class="wishlist-btn" data-id="37">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="38" data-category="spring">
+                    <div class="product-badge">Spring Special</div>
+                    <img src="../pics/lily.jpg" alt="Lily of the Valley" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">Lily of the Valley</div>
+                        <div class="product-description">Delicate bell-shaped flowers symbolizing sweetness and purity</div>
+                        <div class="product-price">₱549.00</div>
+                        <div class="product-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus" data-id="38">-</button>
+                                <span class="quantity" data-id="38">1</span>
+                                <button class="quantity-btn plus" data-id="38">+</button>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="add-to-cart" data-id="38">Add to Cart</button>
+                                <button class="wishlist-btn" data-id="38">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="about-us">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Fiora Atelier</h4>
+                <p>Bringing elegance and beauty to your special moments with our exquisite floral arrangements.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Shop</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html#best-sellers">Best Sellers</a></li>
+                    <li><a href="index.html#fresh">Fresh Flowers</a></li>
+                    <li><a href="index.html#synthetic">Synthetic Flowers</a></li>
+                    <li><a href="index.html#seasonal">Seasonal Collection</a></li>
+                    <li><a href="index.html#events">Events Styling</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Customer Service</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping Information</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contact Info</h4>
+                <ul class="footer-links">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Flower Street, Manila</li>
+                    <li><i class="fas fa-phone"></i> (02) 1234-5678</li>
+                    <li><i class="fas fa-envelope"></i> hello@fioraatelier.co</li>
+                    <li><i class="fas fa-clock"></i> Mon-Sat: 9AM-6PM</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2025 Fiora Atelier | All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fall Collection - Fiora Atelier</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Great+Vibes&family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="../index.html" class="logo">
+                <div class="logo-image">
+                    <img src="../pics/fiora.png" alt="Fiora Atelier Logo">
+                </div>
+                <div class="logo-text">
+                    <h1>Fiora Atelier</h1>
+                    <p>Elegance & Beauty in a Single Bouquet</p>
+                </div>
+            </a>
+            <div class="header-controls">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search flowers..." id="search-input">
+                    <button id="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="header-icons">
+                    <div class="icon-container" id="wishlist-icon">
+                        <i class="fas fa-heart"></i>
+                        <span class="badge" id="wishlist-count">0</span>
+                    </div>
+                    <div class="icon-container" id="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge" id="cart-count">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav-container" id="main-nav">
+        <ul class="nav-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#best-sellers">Best Sellers</a></li>
+            <li><a href="../index.html#fresh">Fresh Flowers</a></li>
+            <li><a href="../index.html#seasonal">Categories</a></li>
+            <li><a href="../index.html#events">Events Styling</a></li>
+            <li><a href="../index.html#gallery">Gallery</a></li>
+            <li><a href="../index.html#about-us">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Fall Collection Section -->
+    <main class="main-content">
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">Fall Collection</h2>
+                <p class="section-subtitle">Warm your heart with our cozy autumn-inspired floral arrangements featuring rich hues and seasonal blooms</p>
+            </div>
+
+            <div class="product-grid">
+                <div class="product-card" data-id="21" data-category="fall">
+                    <div class="product-badge">Autumn Special</div>
+                    <img src="../pics/cchrysanthemum.jpg" alt="Chrysanthemum" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">Chrysanthemum Charm</div>
+                        <div class="product-description">Beautiful autumn chrysanthemums in warm tones perfect for fall decor</div>
+                        <div class="product-price">₱499.00</div>
+                        <div class="product-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus" data-id="21">-</button>
+                                <span class="quantity" data-id="21">1</span>
+                                <button class="quantity-btn plus" data-id="21">+</button>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="add-to-cart" data-id="21">Add to Cart</button>
+                                <button class="wishlist-btn" data-id="21">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="22" data-category="fall">
+                    <div class="product-badge">Autumn Special</div>
+                    <img src="../pics/aster.jpg" alt="Aster" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">Autumn Asters</div>
+                        <div class="product-description">Delicate asters in purple and pink shades for autumn arrangements</div>
+                        <div class="product-price">₱459.00</div>
+                        <div class="product-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus" data-id="22">-</button>
+                                <span class="quantity" data-id="22">1</span>
+                                <button class="quantity-btn plus" data-id="22">+</button>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="add-to-cart" data-id="22">Add to Cart</button>
+                                <button class="wishlist-btn" data-id="22">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="23" data-category="fall">
+                    <div class="product-badge">Autumn Special</div>
+                    <img src="../pics/japaneseamone.avif" alt="Japanese Anemone" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">Japanese Anemones</div>
+                        <div class="product-description">Elegant white and pink anemones that bloom beautifully in fall</div>
+                        <div class="product-price">₱479.00</div>
+                        <div class="product-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus" data-id="23">-</button>
+                                <span class="quantity" data-id="23">1</span>
+                                <button class="quantity-btn plus" data-id="23">+</button>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="add-to-cart" data-id="23">Add to Cart</button>
+                                <button class="wishlist-btn" data-id="23">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="24" data-category="fall">
+                    <div class="product-badge">Autumn Special</div>
+                    <img src="../pics/celosia.jpg" alt="Celosia" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">Celosia Flames</div>
+                        <div class="product-description">Vibrant flame-like celosia flowers in rich red and orange hues</div>
+                        <div class="product-price">₱499.00</div>
+                        <div class="product-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus" data-id="24">-</button>
+                                <span class="quantity" data-id="24">1</span>
+                                <button class="quantity-btn plus" data-id="24">+</button>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="add-to-cart" data-id="24">Add to Cart</button>
+                                <button class="wishlist-btn" data-id="24">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="25" data-category="fall">
+                    <div class="product-badge">Autumn Special</div>
+                    <img src="../pics/goldenrod.webp" alt="Goldenrod" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">Goldenrod Glow</div>
+                        <div class="product-description">Bright yellow goldenrod that brings sunshine to autumn days</div>
+                        <div class="product-price">₱399.00</div>
+                        <div class="product-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus" data-id="25">-</button>
+                                <span class="quantity" data-id="25">1</span>
+                                <button class="quantity-btn plus" data-id="25">+</button>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="add-to-cart" data-id="25">Add to Cart</button>
+                                <button class="wishlist-btn" data-id="25">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="26" data-category="fall">
+                    <div class="product-badge">Autumn Special</div>
+                    <img src="../pics/helenium.jpg" alt="Helenium" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">Helenium Burst</div>
+                        <div class="product-description">Warm-toned helenium flowers in copper, gold, and red shades</div>
+                        <div class="product-price">₱479.00</div>
+                        <div class="product-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus" data-id="26">-</button>
+                                <span class="quantity" data-id="26">1</span>
+                                <button class="quantity-btn plus" data-id="26">+</button>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="add-to-cart" data-id="26">Add to Cart</button>
+                                <button class="wishlist-btn" data-id="26">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="27" data-category="fall">
+                    <div class="product-badge">Autumn Special</div>
+                    <img src="../pics/sedum.jpg" alt="Sedum" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">Stonecrop Sedum</div>
+                        <div class="product-description">Succulent sedum flowers that transition from pink to bronze</div>
+                        <div class="product-price">₱469.00</div>
+                        <div class="product-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus" data-id="27">-</button>
+                                <span class="quantity" data-id="27">1</span>
+                                <button class="quantity-btn plus" data-id="27">+</button>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="add-to-cart" data-id="27">Add to Cart</button>
+                                <button class="wishlist-btn" data-id="27">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-id="28" data-category="fall">
+                    <div class="product-badge">Autumn Special</div>
+                    <img src="../pics/pansy.jpg" alt="Pansy" class="product-image">
+                    <div class="product-info">
+                        <div class="product-name">Pansy Delight</div>
+                        <div class="product-description">Cheerful pansies in deep purple, yellow, and orange varieties</div>
+                        <div class="product-price">₱359.00</div>
+                        <div class="product-actions">
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus" data-id="28">-</button>
+                                <span class="quantity" data-id="28">1</span>
+                                <button class="quantity-btn plus" data-id="28">+</button>
+                            </div>
+                            <div class="action-buttons">
+                                <button class="add-to-cart" data-id="28">Add to Cart</button>
+                                <button class="wishlist-btn" data-id="28">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="about-us">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Fiora Atelier</h4>
+                <p>Bringing elegance and beauty to your special moments with our exquisite floral arrangements.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Shop</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html#best-sellers">Best Sellers</a></li>
+                    <li><a href="index.html#fresh">Fresh Flowers</a></li>
+                    <li><a href="index.html#synthetic">Synthetic Flowers</a></li>
+                    <li><a href="index.html#seasonal">Seasonal Collection</a></li>
+                    <li><a href="index.html#events">Events Styling</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Customer Service</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping Information</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contact Info</h4>
+                <ul class="footer-links">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Flower Street, Manila</li>
+                    <li><i class="fas fa-phone"></i> (02) 1234-5678</li>
+                    <li><i class="fas fa-envelope"></i> hello@fioraatelier.co</li>
+                    <li><i class="fas fa-clock"></i> Mon-Sat: 9AM-6PM</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2025 Fiora Atelier | All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
